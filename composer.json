@@ -1,0 +1,17 @@
+{
+    "name": "xenx/product-scanner",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Xenx\\ProductScanner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander Lubovsky"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.4"
+    }
+}
