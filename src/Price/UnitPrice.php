@@ -6,9 +6,9 @@ class UnitPrice
 {
     private int $price;
 
-    public function __construct(int $price)
+    public function __construct(float $price)
     {
-        $this->price = $price;
+        $this->price = (int)($price * 100);
     }
 
     /**

@@ -53,4 +53,10 @@ class Terminal
 
         return sprintf('%s$', $this->total / 100);
     }
+
+    public function closeSession(): void
+    {
+        $this->productsCodes = [];
+        $this->total = 0;
+    }
 }
